@@ -2,6 +2,8 @@
 layout: page
 title: About
 permalink: /about/
+header : About
+group: navigation
 ---
 
 <img src="/assets/images/profilepic.jpg" alt="Photo of site author" width="225px" height="225px">
