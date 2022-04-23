@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Stacked Bars
+title: Stacked bars
 date: "2022-04-20 13:30:00 -0700"
 tags: [example, graphs]
 ---

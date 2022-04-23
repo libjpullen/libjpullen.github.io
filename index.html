@@ -1,19 +1,23 @@
 ---
 layout: page
-title: Well, Hello There!
+title: Welcome
 ---
-<ul class="posts">
-    {% for post in paginator.posts %}
-    <li class="post">
-        <small>{{ post.date | date_to_string }}</small>
-        <small><a style="color:grey" href="{{ BASE_PATH }}{{ post.url }}#disqus_thread"></a></small>
-        <br>
-        <a class="nice-title" href="{{ post.url | relative_url }}">{{ post.title }}</a>
-        <p class="nice-text">{{ post.content | strip_html | truncatewords: 50 }} <a href="{{ post.url | relative_url }}">Read more!</a></p>
-    </li>
-    {% endfor %}
-    {% include pagination.html %}
-</ul>
+<div class="content">
+    <span class="post-text">
+    <ul class="posts">
+        {% for post in paginator.posts %}
+        <li class="post">
+            <small>{{ post.date | date_to_string }}</small>
+            <small><a style="color:grey" href="{{ BASE_PATH }}{{ post.url }}#disqus_thread"></a></small>
+            <br>
+            <a class="nice-title" href="{{ post.url | relative_url }}">{{ post.title }}</a>
+            <p class="nice-text">{{ post.content | strip_html | truncatewords: 50 }} <a href="{{ post.url | relative_url }}">Read more!</a></p>
+        </li>
+        {% endfor %}
+        {% include pagination.html %}
+    </ul>
+    </span>
+</div>
 
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES * * */
