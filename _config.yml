@@ -23,7 +23,7 @@ email: jmpullen@uncg.edu
 description: >- # this means to ignore newlines until "baseurl:"
   LIS 636 Site Final
 baseurl: # the subpath of your site, e.g. /blog
-url: #https://libjpullen.github.io/ # the base hostname & protocol for your site, e.g. http://example.com
+url: https://libjpullen.github.io/ # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: ju_pullen
 github_username:  libjpullen
 

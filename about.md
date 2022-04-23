@@ -11,4 +11,4 @@ My name is Julie Pullen. I love coding, assessment, and libraries. On this websi
 
 Thank you for visiting!
 
-Contact: jmpullen@uncg.edu
+Contact: <a href="mailto:jmpullen@uncg.edu">jmpullen@uncg.edu</a>
