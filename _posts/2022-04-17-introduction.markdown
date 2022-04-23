@@ -1,10 +1,9 @@
 ---
 title: Introduction
 layout: post
-date: "2018-04-17 13:30:00 -0700"
+date: "2022-04-17 13:30:00 -0700"
 tags: [introduction]
 ---
-## Welcome
 
 Welcome to the first post on this website!
 
