@@ -6,7 +6,7 @@ title: Welcome
     {% for post in paginator.posts %}
     <li class="post">
         <small>{{ post.date | date_to_string }}</small>
-        <small><a style="color:grey" href="{{ BASE_PATH }}{{ post.url }}#disqus_thread"></a></small>
+        <small><a style="color:grey" href="{{ BASE_PATH }}{{ post.url }}"></a></small>
         <br>
         <a class="nice-title" href="{{ post.url | relative_url }}">{{ post.title }}</a>
         <p class="nice-text">{{ post.content | strip_html | truncatewords: 50 }} <a href="{{ post.url | relative_url }}">Read more</a></p>
