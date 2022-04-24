@@ -12,4 +12,5 @@ My name is Julie Pullen. I love coding, assessment, and libraries. On this websi
 Thank you for visiting!
 
 <a href="https://libjpullen.github.io/Pullen_resume.html" target="blank" >View resume</a>
+
 Contact: <a href="mailto:jmpullen@uncg.edu">jmpullen@uncg.edu</a>
