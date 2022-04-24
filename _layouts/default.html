@@ -66,7 +66,23 @@
 
     <div class="tile is-parent">
       <div class="tile is-8 is-child main">
-
+        <div class="box">
+          <h1 class="post-title">Welcome</h1>
+          <hr>
+          <div class="content">
+            <span class="post-text">
+              <ul class="posts">
+                <li class="post">
+                  <small>{{ post.date | date_to_string }}</small>
+                  <small><a style="color:grey" href="{{ BASE_PATH }}{{ post.url }}#disqus_thread"></a></small>
+                  <br>
+                  <a class="nice-title" href="{{ post.url | relative_url }}">{{ post.title }}</a>
+                  <p class="nice-text">{{ post.content | strip_html | truncatewords: 50 }} <a href="{{ post.url | relative_url }}">Read more!</a></p>
+                </li>
+              </ul>
+            </span>
+          </div>
+        </div>
         {{ content }}
 
       </div>
